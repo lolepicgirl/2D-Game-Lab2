@@ -1,2 +1,2 @@
-# 2D Game-Lab2
+# 2D Game-Labs
  Collaborative Labs
