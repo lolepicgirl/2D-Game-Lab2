@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bf4y260x1krma"]
+
+[ext_resource type="Texture2D" uid="uid://bdjm7unftghu8" path="res://panda.png" id="1_g6p6k"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Panda" type="Sprite2D" parent="."]
+position = Vector2(199, 519)
+scale = Vector2(0.582312, 0.563889)
+texture = ExtResource("1_g6p6k")
