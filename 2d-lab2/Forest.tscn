@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0tlygdgt1o8h"]
+
+[ext_resource type="Texture2D" uid="uid://c5c6hyxm3x4no" path="res://bam.png" id="1_uvcdu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Hill" type="Sprite2D" parent="."]
+position = Vector2(1662, 1697)
+scale = Vector2(8.27273, 7.46)
+
+[node name="Bam" type="Sprite2D" parent="."]
+position = Vector2(504, 136.125)
+scale = Vector2(1.26, 1.50185)
+texture = ExtResource("1_uvcdu")
