@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bf4y260x1krma"]
+[gd_scene load_steps=4 format=3 uid="uid://bf4y260x1krma"]
 
 [ext_resource type="PackedScene" uid="uid://b0tlygdgt1o8h" path="res://Forest.tscn" id="1_5yvb7"]
 [ext_resource type="Texture2D" uid="uid://bdjm7unftghu8" path="res://panda.png" id="1_g6p6k"]
+[ext_resource type="PackedScene" uid="uid://c27u7t2ml0nau" path="res://Parrot.tscn" id="3_n1leu"]
 
 [node name="Main" type="Node2D"]
 
@@ -12,3 +13,5 @@ position = Vector2(230, 229)
 position = Vector2(199, 519)
 scale = Vector2(0.582312, 0.563889)
 texture = ExtResource("1_g6p6k")
+
+[node name="Node2D2" parent="." instance=ExtResource("3_n1leu")]

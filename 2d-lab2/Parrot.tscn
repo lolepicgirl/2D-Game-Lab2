@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c27u7t2ml0nau"]
+
+[ext_resource type="Texture2D" uid="uid://baugyi8y1n1m6" path="res://parrot.png" id="1_6p7g2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Parrot" type="Sprite2D" parent="."]
+position = Vector2(959, 219)
+scale = Vector2(0.491667, 0.491667)
+texture = ExtResource("1_6p7g2")
