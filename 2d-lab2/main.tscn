@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bf4y260x1krma"]
 
-[ext_resource type="PackedScene" uid="uid://b0tlygdgt1o8h" path="res://Forest.tscn" id="1_5yvb7"]
+[ext_resource type="PackedScene" path="res://Forest.tscn" id="1_5yvb7"]
 [ext_resource type="Texture2D" uid="uid://bdjm7unftghu8" path="res://panda.png" id="1_g6p6k"]
 [ext_resource type="PackedScene" uid="uid://c27u7t2ml0nau" path="res://Parrot.tscn" id="3_n1leu"]
 
@@ -10,7 +10,7 @@
 position = Vector2(230, 229)
 
 [node name="Panda" type="Sprite2D" parent="."]
-position = Vector2(199, 519)
+position = Vector2(246, 482)
 scale = Vector2(0.582312, 0.563889)
 texture = ExtResource("1_g6p6k")
 
